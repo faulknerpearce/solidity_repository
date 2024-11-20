@@ -1,0 +1,23 @@
+{
+  "name": "chainlink_functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@chainlink/contracts": "^1.1.1",
+    "@chainlink/env-enc": "^1.0.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1",
+    "hardhat": "^2.22.6"
+  },
+  "devDependencies": {
+    "@chainlink/functions-toolkit": "^0.3.1",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}
