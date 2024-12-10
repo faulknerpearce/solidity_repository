@@ -1,1 +1,1 @@
-# Smart Contract Sandbox
+# Hardhat Sandbox
