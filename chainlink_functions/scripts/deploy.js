@@ -13,7 +13,7 @@ async function main() {
   // Create a contract factory for the "StravaConsumer" contract.
   const StravaConsumerFactory = await ethers.getContractFactory("StravaConsumer");
   
-  // Deploy the "StravaConsumer" contract with the subscription ID and source code.
+  // Deploy the "Strava Consumer" contract with the subscription ID and source code.
   const StravaConsumerContract = await StravaConsumerFactory.deploy(subscriptionId, source);
   
   console.log('Deploying Contract.');
