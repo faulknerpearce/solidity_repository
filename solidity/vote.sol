@@ -1,9 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.4;
 
+// A simple voting contract that allows users to create, change, and track votes.
 contract Contract {
+
 	enum Choices { Yes, No }
 	
+	// Struct representing a vote with choice and voter's address.
 	struct Vote {
 		Choices choice;
 		address voter;
