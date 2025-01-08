@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
+// A self-destructing contract that increments a counter and destroys itself after 10 ticks.
 contract Contract {
     uint32 timesTicked;
     address payable public owner; 
