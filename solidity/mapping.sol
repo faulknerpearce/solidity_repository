@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
+// A contract to manage membership status for addresses.
 contract Contract {
     
     // Tracks membership status of addresses.
