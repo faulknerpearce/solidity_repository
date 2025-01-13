@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
+// A contract that requires a minimum deposit upon deployment and allows the owner to withdraw all funds.
 contract Contract {
 
     address public owner;
