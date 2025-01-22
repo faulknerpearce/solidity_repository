@@ -23,8 +23,6 @@ contract MultiSig {
         require(_owners.length > 0, "Must have at least one owner in order to deploy the contract.");
         require(_required <= _owners.length, "The required amount of signatures exceeded the total amount of owners.");
         require(_required > 0, "The required amount of signatures must be greater than zero.");
-        
-
         required = _required;   
     }
     
