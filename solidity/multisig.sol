@@ -24,7 +24,7 @@ contract MultiSig {
         require(_required <= _owners.length, "The required amount of signatures exceeded the total amount of owners.");
         require(_required > 0, "The required amount of signatures must be greater than zero.");
         
-        owners = _owners;
+
         required = _required;   
     }
     
