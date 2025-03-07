@@ -5,7 +5,6 @@ pragma solidity 0.8.4;
 contract Contract {
     
     address public owner;
-    
     uint public price;
 
     event Deployed(address indexed _owner);
