@@ -1,2 +1,16 @@
 .DS_Store
 test.sol
+
+# Dependencies
+node_modules/
+lib/
+
+# Foundry build artifacts
+out/
+cache/
+broadcast/
+
+# Budl projects (ignored for now)
+budl_dao/
+budl_lotto/
+budl_ntf/
